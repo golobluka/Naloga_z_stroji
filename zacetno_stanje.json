@@ -1,0 +1,55 @@
+[
+  {
+    "identifikator": "stroj1",
+    "najvisja_toleranca_temperature": 55.0,
+    "urnik": "vedno_prizgan",
+    "zacetna_temperatura": 50.0,
+    "min_temperatura": 22.0
+  },
+    {
+    "identifikator": "stroj2",
+    "najvisja_toleranca_temperature": 40,
+    "urnik": "vedno_prizgan",
+    "zacetna_temperatura": 50.0,
+    "min_temperatura": 22.0
+  },
+  {
+    "identifikator": "stroj3",
+    "najvisja_toleranca_temperature": 80.0,
+    "urnik": "vedno_ugasnjen",
+    "zacetna_temperatura": 50.0,
+    "min_temperatura": 22.0
+  },
+  {
+    "identifikator": "stroj4",
+    "najvisja_toleranca_temperature": 90.0,
+    "urnik": [
+      {"zacetek": "08:00", "konec": "12:00"},
+      {"zacetek": "13:00", "konec": "17:00"}
+    ],
+
+    "zacetna_temperatura": 50.0,
+    "min_temperatura": 22.0
+  },
+  {
+    "identifikator": "stroj5",
+    "najvisja_toleranca_temperature": 40.0,
+    "urnik": [
+      {"zacetek": "08:00", "konec": "12:00"},
+      {"zacetek": "13:00", "konec": "17:00"}
+    ],
+
+    "zacetna_temperatura": 50.0,
+    "min_temperatura": 22.0
+  },
+  {
+    "identifikator": "stroj5",
+    "najvisja_toleranca_temperature": 80.0,
+    "urnik": [
+      {"zacetek": "08:00", "konec": "12:00"}
+    ],
+
+    "zacetna_temperatura": 50.0,
+    "min_temperatura": 22.0
+  }
+]
