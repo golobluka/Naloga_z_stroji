@@ -1,6 +1,4 @@
 import threading
-import signal
-import sys
 import uvicorn
 
 from simulacija import simuliraj, nalozi_stroje_iz_json
@@ -19,3 +17,4 @@ paralelni_proces.start()
 
 #Zaženi spletni vmesnik
 uvicorn.run(app, host="0.0.0.0", port=8000)
+
